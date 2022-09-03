@@ -1,0 +1,17 @@
+sudo nohup dockerd &
+sudo docker images
+sudo docker ps
+sudo docker image ls
+sudo docker container ls
+sudo docker system prune --volumes
+sudo docker container prune --force
+sudo docker contatiner stop 'id'
+sudo docker image prune --all
+sudo docker build .(Dockerfile)
+sudo docker-compose up -d --build (docker-compose.yml)
+sudo docker-compose up -d 
+sudo docker-compose down
+sudo docker-compose exec web python3 manage.py makemigrations xxx
+sudo docker-compose exec web python3 manage.py migrate
+sudo docker-compose exec web python3 manage.py test xxx
+
