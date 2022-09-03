@@ -14,4 +14,8 @@ sudo docker-compose down
 sudo docker-compose exec web python3 manage.py makemigrations xxx
 sudo docker-compose exec web python3 manage.py migrate
 sudo docker-compose exec web python3 manage.py test xxx
-
+git --work-tree=/path/to/work/tree checkout main
+git logs
+git reflog
+git reset --hard xxx
+git reset HEAS@{NUM}
