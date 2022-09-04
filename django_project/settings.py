@@ -179,3 +179,7 @@ ACCOUNT_SESSION_REMEMBER = True
 ACCOUNT_SIGNUP_PASSWORD_ENTER_TWICE = False
 
 DEFAULT_FROM_EMAIL = 'admin@djangobookstore.com'
+
+#upload files/images
+MEDIA_URL = '/media/'
+MEDIA_ROOT = BASE_DIR / 'media'
